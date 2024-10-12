@@ -1,0 +1,43 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #000B1D;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: 1px solid #fff ;
+    
+}
+.icon{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.navigasi{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navigasi ul{
+    color: #fff;
+    display: flex;
+    list-style-type: none;
+    gap: 80px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.bahasa{
+    width: 28%;
+    
+}
