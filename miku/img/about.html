@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #030946;
+        }
+        body {
+            background-color: #d6e8ff;
+            background-image: url('bg.JPG');
+            background-repeat: repeat;
+        }
+        .navbar {
+            display: flex;
+            height: 80px;
+            background-color: #061c3f;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+        }
+        .navigasi ul {
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+        }
+        .navigasi a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 24px;
+        }
+        .navigasi a:hover {
+            color: #717171;
+        }
+        .content {
+            display: flex;
+            height: 700px;
+        }
+        .left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .left h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .left p {
+            font-size: 20px;
+            font-weight: 300;
+            font-family: 'Baloo 2', sans-serif;
+            text-align: justify;
+            background-color: #ffffffd0;
+            width: 90%;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right img {
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #061c3f;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .left, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navigasi">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="MyZone.html">My Zone</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr> 
+    <div class="content">
+        <div class="left">
+            <h2>About Me</h2>
+            <p>Hai! Saya Zainab Feizia. Saya adalah seorang mahasiswi jurusan Informatika di Universitas Jenderal Soedrirman. Sebagai mahasiswa semester satu, belum banyak pengalaman yang saya miliki. Tapi saya akan mempersibuk diri dengan kegiatan-kegiatan yang bermanfaat.
+                Untuk menghabiskan waktu luang, Saya senang sekali menonton drama atau film dengan genre romance. Saya percaya bahwa waktu luang adalah saat yang paling berharga, dan saya selalu mencari cara untuk menjadikannya menyenangkan.</p>
+        </div>
+        <div class="right">
+            <img src="Foto Diri.JPG" alt="Foto Diri">
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
